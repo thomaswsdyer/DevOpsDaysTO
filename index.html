@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>DevOpsDaysTO</title>
+
+		<meta name="description" content="Review of DevOpsDaysTO by Tom Dyer">
+		<meta name="author" content="Tom Dyer">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+        <section>
+          <h1>DevsOpsDays Toronto</h1>
+          <h3>Overview and Random Musings</h3>
+          <h3 class="fragment">or</h3>
+          <p class="fragment">"Why I got paid to hang out in Toronto for two days and tweet about it."</p>
+          <p><br><br><br><small>Created by <a href="http://www.tomdyer.ca">Tom Dyer</a> / <a href="https://twitter.com/thomaswsdyer">@thomaswsdyer</a></small></p>
+        </section>
+        <section>
+          <img src="images/juliandunn_tweet.png">
+        </section>
+        <section>
+          <h1>What is DevOps?</h1>
+        </section>
+        <section>
+          <h2>DevOps is <strong>NOT</strong></h2>
+          <p>
+            <ul>
+              <li class="fragment">A set of tools</li>
+              <li class="fragment">A process / set of processes</li>
+              <li class="fragment">Something you make</li>
+              <li class="fragment">What you do</li>
+              <li class="fragment">What you are</li>
+              <li class="fragment">Devs pushing to Production with no tests</li>
+            </ul>
+          </p>
+          <p class="fragment">
+            <br>So if it's not these........
+          </p>
+        </section>
+        <section>
+          <h2>DevOps Is</h2>
+          <p><br>Simply put:<blockquote>"DevOps is a philosophy."</blockquote></p>
+        </section>
+        <section>
+        <p>
+          <br>A concept that promotes:</p>
+          <ul>
+            <li>Transparency</li>
+            <li>Collaboration</li>
+            <li>Breaking down "silos"</li>
+            <li>Lean Thinking</li>
+            <li>Agile Methods</li>
+            <li>Visibility</li>
+          </ul>
+          <p class="fragment"><br>and so on, and so on,...</p>
+          </section>
+          <section>
+            <h2>DevOps Battles Inhumanity!</h2>
+          </section>
+          <section>
+            <p>Ticketing Systems as Tools of Oppression?</p>
+            <p><small>I created a ticket! It's your problem now!</small></p>
+            <p><br>On-Call Sucks!</p>
+            <p><small>Woken up in the middle of the night for something out of your control?</small></p>
+            <p><small>On call twice (or more) per month?</small></p>
+            <p><small>One-man Ops Team?</small><p>
+            <p><br>Agile Methods</p>
+            <p><small>More work with less people!</small></p>
+            <p><br>Responsibility with no Authority</p>
+            <p><small>We chose this soution, look after it! - Whoops it sucks!</small></p>
+            </section>
+              <aside class="notes">Now that we know that, where and how do we start?</aside>
+            <section>
+            <h2>The CAMS model</h2>
+            <ul>
+              <li>Culture</li>
+              <li>Automation</li>
+              <li>Measurement</li>
+              <li>Sharing</li>
+            </ul>
+            <p class="fragment" align="left"><br>But...</p>
+          </section>
+          <section>
+            <p class="fragment" data-fragment-index="1">Changing</p>
+            <h2>Culture is hard</h2>
+            <p class="fragment" data-fragment-index="2"><br>Start simple</p>
+            <aside class="notes">Culture is hard, in general. And changing culture.....eek!</aside>
+          </section>
+          <section>
+            <p><br>DevOps is Laying the SMAC Down!</p>
+            <img src="http://www.wwe24seven.com/images/15/the-rock-168.jpg">
+          </section>
+          <section>
+            <h2>DevOps Starts with Sharing</h2>
+            <ul>
+              <li>Blog posts</li>
+              <li>Presentations</li>
+              <li>Books</li>
+              <li>Practices</li>
+              <li>Attend MeetUps</li>
+            </ul>
+            <p><br>Start the conversation!</p>
+          </section>
+          <section>
+            <h1>Let Me Share With You</h1>
+          </section>
+          <section>
+            <h2>If I Were to Keynote...</h2>
+          </section>
+          <section data-transition="zoom">
+            <h2>DevOps and Fighter Jets</h2>
+            <p class="fragment">DevOps scares people.<span class="fragment"> - Why?</span></p>
+            <img src="http://upload.wikimedia.org/wikipedia/commons/2/25/Two_F-22A_Raptor_in_column_flight_-_(Noise_reduced).jpg" width=50% height=50%>
+          </section>
+          <section data-transition="zoom">
+            <h2>DevOps empowers<br>Continuous Improvement</h2>
+            <blockquote class="fragment roll-in">Whether it's a goal or a by-product,<br>the philosophy of DevOps leads to<br>Continuous Improvement in those that adopt it.</blockquote>
+            <blockquote class="fragment roll-in">The key to Continuous Improvement is lowering cycle time.</blockquote>
+            <p class="fragment"><br>Low cycle time makes better fighter jets!</p>
+          </section>
+          <section data-transition="zoom">
+            <h2>Let's pretend we're dogfighting</h2>
+            <p align="left"><br><br>Even equal time:</p>
+            <ul>
+              <li>You can make and respond to 3 decisions.</li>
+              <li>I can make and respond to 7 decisions.</li>
+            </ul>
+            <p class="fragment"><br><br>Shorter cycle time = Quicker to learn and adapt</p>
+          </section>
+          <section data-transition="zoom">
+            <h2>DevOps Makes Better Fighter Jets!</h2>
+            <p>Reducing the time and reducing the barriers between<br>discovery, analysis, feedback and response<br>leads to quicker learning!</p>
+            <img src="http://www.knebworthhouse.com/wp-content/uploads/2014/01/Top-Gun-image-2.jpg" width=75% height=75%>
+          </section>
+          <section data-transition="linear">
+            <h1>Continuing to Continuously Improve</h1>
+          </section>
+          <section data-transition="linear">
+            <h1>Processes and Practices</h1>
+          </section>
+          <section data-transition="linear">
+            <blockquote>"Do Not Fear Failure."</blockquote>
+          </section>
+          <section data-transition="linear">
+            <h2>Failure Testing</h2>
+            <p>Failure Testing = Taking control of failure!</p>
+            <p><br>Failure WILL happen</p>
+            <ul>
+              <li>Bugs in 'exceptional' code paths</li>
+              <li>Systems won't recover as quickly as expected</li>
+              <li>What is 'normal' when things aren't?</li>
+            </ul>
+            </section>
+          <section data-transition="linear">
+            <img src="http://cdn.diply.com/img/40cdbc45-e66b-4232-88e6-27b4b760b7e5.jpg">
+          </section>
+          <section data-transition="linear">
+          <h2>Inject Failure</h2>
+            <ol>
+              <li>Create a controlled test (Stop a service, restart a server, etc)</li>
+              <li>Alert and respond as "normal"</li>
+              <li>Analyze the results<br>- What worked, what needs improvement?</li>
+            </ol>
+            <p><br></p>
+            <p>SHARE THE RESULTS!</p>
+          </section>
+          <section data-transition="linear">
+            <h2>Successful Failure</h2>
+            <p>System and Operational knowledge sharing</p>
+            <p><small>How it's supposed to work vs. How it acutally works</small></p>
+            <p>Highlights "untestable" systems</p>
+            <p><small>If you can't test it, it's not fault tolerant</small></p>
+          </section>
+          <section data-transition="linear">
+          <h2>How do we begin?</h2>
+            <ul>
+              <li>Start small</li>
+              <li>Automation can come later</li>
+            </ul>
+          </section>
+          <section data-transition="linear">
+            <blockquote>Fail often...but fail TOGETHER!</blockquote>
+          </section>
+          <section>
+            <h2>Working With a Distributed Team</h2>
+            <p align="left">It's all about CAP.</p>
+            <ul class="fragment">
+              <li>Consistency</li>
+              <li>Availability</li>
+              <li>Partition Tolerant</li>
+            </ul>
+          </section>
+          <section>
+            <h2>Consistency</h2>
+            <p>Information and Trasparency</p>
+          </section>
+          <section>
+            <h2>Availability</h2>
+            <p>Overlap and Face Time</p>
+            <p><br>Flexible Work Hours, Make yourself available!</p>
+          </section>
+          <section>
+            <h2>Partition Tolerant</h2>
+            <p>Small, flexible teams</p>
+            <p>Self-Organizing</p>
+            <p>Independent</p>
+          </section>
+          <section>
+            <h2>Tooling?</h2>
+            <p>Communication</p>
+            <ul>
+              <li>Ephemeral<br><small>HipChat, Skype, Goto Meeting</small>
+              <li>Persistent<br><small>Email</small>
+              <li>Permanent<br><small>Wiki, JIRA, Pull Requests</small>
+            </ul>
+          </section>
+          <section>
+            <h2>Tooling?</h2>
+            <p>Solving the "Over the Shoulder" Problem</p>
+            <ul>
+              <li>Screen sharing
+              <li>tmux/wemux-ing
+              <li>Consistent Tooling<br><small>IntelliJ, rvm/ruby, SQL Developer</small>
+            </ul>
+          </section>
+          <section>
+            <h2>Anything Else?</h2>
+            <p class="fragment">Keep Up Process!<br><small>Standups, Retros, 1-on-1's</small></p>
+            <p class="fragment">Share Metrics!<br><small>All about transparency</small></p>
+            <p class="fragment">Culture - Like the people!</p>
+          </section>
+          <section>
+            <h1>Keep the Sharing Going!</h1>
+          </section>
+          <section>
+            <h2>IGNITE Talks</h2>
+            <p>IGNITE Talks are quick, organized presentations on a small, but complete topic</p>
+            <ul>
+              <li>20 slides</li>
+              <li>5 minutes</li>
+              <li>Slides auto-advance every 15s</li>
+            </ul>
+          </section>
+          <section>
+            <h2>Open Space Concept</h2>
+            <p align="left">Stimulate diverse, AdHoc conversations between particpants</p>
+            <p align="left"><br>Participants submit a list of topics they want to discuss</p>
+            <p align="left"><br>The group votes for the popularity / interest in each topic</p>
+            <p align="left"><br>The group decides how to split up the selected topics<br><small>For example, three concurrent groups, 45 minutes each, three time blocks</small></p>
+          </section>
+          <section data-transition="none">
+            <p align="left">Participants can join whichever discussion they want, for however long they want.</p>
+            <p align="left"><br>Conversations are unstructured and informal.</p>
+          </section>
+          <section data-transition="fade">
+            <h1>Tools</h1>
+          </section>
+          <section data-transition="fade">
+            <h2 align="left">Docker</h2>
+            <p align="left">Container technology is very new, but very exciting!</p>
+            <p align="left">"Containerizing" tools and processes creates a division of tasks.</p>
+            <p align="left">Docker Containers for Workstations - Each container has the tools and setup to accomplish a specific task.</p>
+            <p align="left">Container != VM</p>
+            <p><br></p>
+            <ul align="left">
+              <li>SoliumScripts</li>
+              <li>Wrecker Dev Setup</li>
+              <li>"Phoenix" Sensu clients</li>
+            </ul>
+          </section>
+          <section data-transition="fade">
+            <h2 align="left">Ansible</h2>
+            <p align="left">Light-weight configuration management tool.</p>
+            <p align="left">Shallow learning curve.</p>
+            <p align="left">Wiki Setup Page of Doom? --> Ansible playbook.</p>
+            <p align="left">Concentric Shell Scripts? --> Ansible Playbook</p>
+          </section>
+          <section data-transition="fade">
+            <h2 align="left">serverspec</h2>
+            <p align="left">Test your intfrastructure!</p>
+            <p align="left">Validate your Configuration Management.</p>
+            <p align="left">We would want it for PAAS.</p>
+            <p align="left">Leads to "Test Driven Infrastructure".</p>
+            <p align="left">Decoupled from Configuration Management.</p>
+          </section>
+          <section data-transition="fade">
+            <h2>3rd Party Services</h2>
+          </section>
+          <section data-transition="fade">
+            <h2 align="left">PagerDuty</h2>
+            <p align="left">Still no.</p>
+          </section>
+          <section data-transition="fade">
+            <h2 align="left">DataDog</h2>
+            <p align="left">Platform monitoring tool.</p>
+            <p align="left">It's not NewRelic - Focused on 'Capacity Monitoring'.</p>
+            <p align="left">No application traces - Not for code optimization.</p>
+            <p align="left">Java / JMX Compatible.</p>
+            <p align="left">Integrations for Nagios (in) and OpsGenie (out).</p>
+            <p align="left">Open sourced plugins - We could write our own!</p>
+          </section>
+          <section>
+            <h1>The End</h1>
+            <h2 class="fragment"><br>...of Day 1.</h2>
+          </section>
+          <section>
+            <h1>Day Too?!?!?!</h1>
+            <img src="http://www.tickld.com/cdn_image_thing/787611.jpg" class="fragment">
+          </section>
+          <section>
+            <h2>Continuous Devilry</h2>
+            <p class="fragment" align="left">It is NOT:</p>
+            <p class="fragment">Continuous Deployment</p>
+            <p class="fragment">Automating ALL THE THINGS!</p>
+            <p class="fragment" align="left">It IS:</p>
+            <p class="fragment">Eliminating bottlenecks in delivering software!</p>
+          </section>
+          <section>
+            <p align="left">Some blockers:</p>
+            <ul>
+              <li>Releases disrupt customers</li>
+              <li>Operations can handle increased releases</li>
+              <li>Ops and Dev can't support more releases</li>
+              <li>Releases tied to DB changes</li>
+            </ul>
+            <p><br><br>Continuous Delivery is about removing blockers!</p>
+          </section>
+          <section>
+            <h2>Guerilla DevOps Warfare</h2>
+            <p>Conquering the Impossible Project!<br><br></p>
+            <ol>
+              <li class="fragment">What comes first Culture or Technology?</li>
+              <li class="fragment">Getting others to see the Whole System.</li>
+              <li class="fragment">Architecture Matters - Everywhere!</li>
+            </ol>
+          </section>
+          <section>
+            <h2>Culture or Technology?</h2>
+            <p>Neither!</p>
+            <img src="images/triangle.png">
+            <p class="fragment">Reflexive Feedback Loops - Changing one (or two) changes the others!</p>
+          </section>
+          <section>
+            <h2>Seeing The System</h2>
+            <p>Map out your processes to see where bottlenecks exists!</p>
+            <p><br>Define your end goals!<br><small>Especially when choosing technology!</small></p>
+            <p><br>Did I mention SHARING?</p>
+          </section>
+          <section>
+            <h2>Architecture Matters</h2>
+            <p class="fragment">EVERYWHERE!</p>
+            <span class="fragment">
+              <ul>
+                <li>Software - scale and change</li>
+                <li>Business - what are we doing, why?</li>
+                <li>Team - who protects who?</li>
+                <li>Process - coordination of work, expectations</li>
+              </ul>
+          </section>
+          <section>
+            <h2>How TELUS is Doing It</h2>
+            <p align="left">TELUS (~43K Employees) is strting to employ DevOps principles</p>
+            <p align="left"><br>They use a "Transformation Team" to:</p>
+            <ul>
+              <li>Evalute existing workflows</li>
+              <li>Empower teams to breakdown Dev and Ops barriers</li>
+              <li>Promote "Change Champions" to carry the message</li>
+            </ul>
+          </section>
+          <section>
+            <h2>How are they doing?</h2>
+            <p>Two years into a five year plan.</p>
+            <p><br>"Planted the seeds" into various small groups of TELUS.</p>
+            <p><br>Starting to see small returns in small groups - Kudo</p>
+            <p><br>Executive Buy-in! <span class="fragment"> - from the CEO!</span></p>
+          </section>
+          <section>
+            <h2>ChatOps</h2>
+            <p>HipChat, Slack, or FlowDock</p>
+            <p>Chatbots!</p>
+            <p>Alerts, Notification, and Deployments</p>
+            <p class="fragment"><br><br>We are leading the charge!</p>
+          </section>
+          <section>
+            <h1>In Conclusion</h1>
+          </section>
+          <section>
+            <h2>Lessons Learned</h2>
+            <p>Our deployments are pretty good!<br><small>"Two button deployment!"</small></p>
+            <p>We are leading the charge on ChatOps!<br><small>Deploy spikes, alerts, LiveBot, Front-End Business</small></p>
+            <p>There's no alternative to Liquibase.<br><small>You're using it or you're not<br>Everyone is as bad at schema migrations as us</small></p>
+            <p><br>We're doing DevOps with the Business!<br><small>JIRA Workflows, ChatOps, Dashboards, Post-mortems</small></p>
+          </section>
+          <section>
+            <h2>Takeaways</h2>
+          </section>
+          <section>
+            <p>We should be running PaaS.</p>
+            <p><br>Let's amp up our serverspec efforts.<br><small>Even for manually created infrastructure</small></p>
+            <p>Logstash - nohup is good hup.</p>
+            <p><br>Start sharing with Dev!<br><small>Guerilla DevOps Warfare</small></p>
+            <p>Moar MeetUps!</p>
+          </section>  
+          <section>
+            <p>Give DataDog a shot.</p>
+            <p><br>Dockerize sensu-clients.</p>
+            <p><br>What are our barriers for delivery?</p>
+            <p><br>lita.io for LiveBot?</p>
+          </section>  
+          <section>
+            <h2>Fun Facts</h2>
+          </section>
+          <section>
+            <p>The Cloud = SAAS + Amazon + 'A bunch of stuff that doesn't really matter'</p>
+            <p><br><br>A small box of business cards looks like a juice box in an airport baggage scanner...</p>
+          </section>
+          <section>
+            <p class="fragment" data-fragment-index="1">Really</p>
+            <h1>The End</h1>
+            <p class="fragment" data-fragment-index="2"><br>..I mean it.</p>
+            <p class="fragment" data-fragment-index="3">Totes<span class="fragment" data-fragment-index="4">...mah goats!</span></p>
+          </section>
+          <section>
+            <img src="http://media-cache-ak0.pinimg.com/736x/9c/25/b2/9c25b2cd4d7936e47781a35cf2341527.jpg">
+          </section>
+      </div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
