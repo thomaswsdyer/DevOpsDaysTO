@@ -2,7 +2,7 @@
 
 A short, slightly LIVE Team centric, recap of DevOpsDaysTO 2014.
 
-## Viewing the presentaion
+## Viewing the presentation
 
 Head over to [www.tomdyer.ca/DevOpsDaysTO](http://www.tomdyer.ca/DevOpsDaysTO) to view this presentation.
 
